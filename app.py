@@ -27,7 +27,6 @@ def load_model():
 model = load_model()
 
 st.title("🚨 Risk Alert Classifier")
-st.caption("Logistic Regression + Scikit-learn Pipeline + Streamlit")
 
 st.markdown(
     "Enter the customer details below. The saved pipeline applies the same "
@@ -38,9 +37,11 @@ with st.form("prediction_form"):
     col1, col2 = st.columns(2)
 
     with col1:
-        age = st.number_input("Age", min_value=18, max_value=80, value=35, step=1)
+        age = st.number_input("Age", min_value=18,
+                              max_value=80, value=35, step=1)
         gender = st.selectbox("Gender", ["Female", "Male", "Other"])
-        region = st.selectbox("Region", ["Central", "East", "North", "South", "West"])
+        region = st.selectbox(
+            "Region", ["Central", "East", "North", "South", "West"])
         employment_type = st.selectbox(
             "Employment Type",
             ["Retired", "Salaried", "Self-Employed", "Student", "Unemployed"],
