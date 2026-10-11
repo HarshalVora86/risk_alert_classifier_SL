@@ -9,7 +9,6 @@
 ![imbalanced-learn](https://img.shields.io/badge/imbalanced--learn-Resampling-green)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
-[![Video](https://img.shields.io/badge/Video-Walkthrough-red?logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1TdJgtQ40TaOWCNPrYSupNSsAgTVfcu8p/view?usp=sharing)
 
 </div>
 
@@ -65,12 +64,6 @@ Because only **~12% of customers are high risk**, accuracy alone is misleading (
 
 A recorded explanation of the project, covering the dataset, approach, model results and final conclusions.
 
-<p align="center">
-  <a href="https://drive.google.com/file/d/1TdJgtQ40TaOWCNPrYSupNSsAgTVfcu8p/view?usp=sharing">
-    <img src="https://img.shields.io/badge/▶%20Watch%20the%20Video%20Explanation-Google%20Drive-red?style=for-the-badge&logo=googledrive&logoColor=white" alt="Watch the video explanation"/>
-  </a>
-</p>
-
 🔗 **Link:** [Project Video Explanation](https://drive.google.com/file/d/1TdJgtQ40TaOWCNPrYSupNSsAgTVfcu8p/view?usp=sharing)
 
 ---
@@ -105,8 +98,7 @@ PR3/
 ├── Screenshots/
 │   ├── imbalance_impact.png
 │   ├── model_comparison.png
-│   ├── roc_curve.png
-│   └── sampling_result.png
+│   └── roc_curve.png
 ├── app.py                                       # Application / demo interface
 ├── train_model.py                               # Script to train and save the model
 ├── requirements.txt                             # Python dependencies
@@ -210,12 +202,6 @@ The training set had 3,247 Low Risk and 433 High Risk samples. Four resampling t
   <em>Figure 3: Recall, Precision and F1-score for each imbalance-handling technique (test set).</em>
 </p>
 
-<p align="center">
-  <img src="Screenshots/sampling_result.png" alt="Effect of Imbalance Handling: Recall vs F1" width="650"/>
-  <br/>
-  <em>Figure 4: Recall and F1-score comparison across sampling methods.</em>
-</p>
-
 **Takeaways**
 - Recall stayed at **1.0** for every technique, so resampling did not help catch more risky customers.
 - F1 actually dropped after balancing, because the extra synthetic or duplicated high-risk examples only added **False Positives**.
@@ -251,7 +237,7 @@ A bank should accept somewhat more False Positives in exchange for fewer False N
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/HarshalVora86/<repository-name>.git
 cd PR3
 ```
 
@@ -332,11 +318,11 @@ jupyter notebook Notebook/Risk_Alert_Classifier.ipynb
 
 ## 👤 Author
 
-**Your Name**
+**Harshal Vora**
 Supervised Learning, Project PR3
 
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [your-profile](https://linkedin.com/in/your-profile)
+- GitHub: [@HarshalVora86](https://github.com/HarshalVora86)
+- LinkedIn: [Harshal Vora](https://www.linkedin.com/in/harshal-vora-344601251/)
 
 ---
 
