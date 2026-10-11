@@ -8,27 +8,8 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange?logo=scikitlearn&logoColor=white)
 ![imbalanced-learn](https://img.shields.io/badge/imbalanced--learn-Resampling-green)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Completed-success)
 
 </div>
-
----
-
-## 📑 Table of Contents
-
-1. [Project Overview](#-project-overview)
-2. [Key Results](#-key-results)
-3. [Video Walkthrough](#-video-walkthrough)
-4. [Dataset](#-dataset)
-5. [Project Structure](#-project-structure)
-6. [Methodology](#-methodology)
-7. [Results & Visualizations](#-results--visualizations)
-8. [Business Interpretation](#-business-interpretation)
-9. [Installation & Usage](#-installation--usage)
-10. [Tech Stack](#-tech-stack)
-11. [Limitations](#-limitations)
-12. [Future Work](#-future-work)
-13. [Author](#-author)
 
 ---
 
@@ -293,26 +274,6 @@ jupyter notebook Notebook/Risk_Alert_Classifier.ipynb
 | Imbalance handling | imbalanced-learn (SMOTE, ADASYN, RandomUnderSampler, RandomOverSampler) |
 | Visualisation | Matplotlib |
 | Environment | Jupyter Notebook |
-
----
-
-## ⚠️ Limitations
-
-- The dataset is **synthetic**, so near-perfect scores (AUC-ROC = 1.0) are unlikely to carry over to real banking data.
-- The test set contains only **124 high-risk customers**, so metrics have wide uncertainty.
-- Business cost figures for False Positives and False Negatives are **assumed**, not taken from real data.
-- Results come from a single train/test split; cross-validated evaluation of the final model would give a more reliable estimate.
-
----
-
-## 🔭 Future Work
-
-- Validate on real-world or less separable data.
-- Add cross-validation and confidence intervals for the final metrics.
-- Tune the decision threshold using a cost-sensitive objective.
-- Explore gradient-boosting models (XGBoost, LightGBM).
-- Add model explainability (SHAP or coefficient analysis) for each alert.
-- Package the model behind an API for real-time scoring.
 
 ---
 
