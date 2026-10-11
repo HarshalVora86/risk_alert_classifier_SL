@@ -1,0 +1,33 @@
+{
+    "Accuracy": 1.0,
+    "Precision": 1.0,
+    "Recall": 1.0,
+    "F1": 1.0,
+    "AUC_ROC": 1.0,
+    "TP": 111,
+    "TN": 809,
+    "FP": 0,
+    "FN": 0,
+    "train_rows": 3680,
+    "test_rows": 920,
+    "features": [
+        "gender",
+        "region",
+        "employment_type",
+        "age",
+        "annual_income_inr",
+        "credit_score",
+        "credit_utilization_ratio",
+        "missed_payments_12m",
+        "avg_late_payment_days",
+        "monthly_transaction_count",
+        "monthly_spend_inr",
+        "cash_advance_count_6m",
+        "complaints_last_6m",
+        "failed_login_attempts_3m",
+        "account_tenure_months",
+        "debt_balance_inr",
+        "last_txn_days_ago"
+    ],
+    "target": "risk_status"
+}
