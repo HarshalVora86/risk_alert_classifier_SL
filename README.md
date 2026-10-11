@@ -49,6 +49,16 @@ A recorded explanation of the project, covering the dataset, approach, model res
 
 ---
 
+## 🌐 Live Demo
+
+Try the deployed Streamlit app and predict a customer's risk status in real time.
+
+🚀 **Live App:** [Risk Alert Classifier on Streamlit](https://riskalertclassifiersl.streamlit.app/)
+
+> ⏳ If the app has been idle, Streamlit may take a few seconds to wake it up. Please wait for it to load.
+
+---
+
 ## 📊 Dataset
 
 - **File:** `dataset/Risk_Alert_Classifier_Dataset_4600.csv`
